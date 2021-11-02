@@ -1,20 +1,18 @@
-/*Estilos da página index.html*/
-.center{
-    text-align: center ;
+.center {
+    text-align: center;
 }
-.justify{
+.justify {
     text-align: justify;
 }
-
-.container{
-   display: flex; 
-   flex-flow: row ;
-   justify-content: center ;
-   align-items: center;
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
-#menu li{
+#menu li {
     display: inline;
-    padding: 30px;
+    padding: 15px;
 }
 #menu li a {
     text-decoration: none;
@@ -22,23 +20,30 @@
     font-size: 20px;
 }
 #menu li a:hover {
-    color: blue;
+    color:gray;
 }
-.p-30 {
-    padding: 30px ;
+.p-30{
+    padding: 30px;
 }
 .br-50 {
     border-radius: 50%;
 }
-.tm-social {
-    width:40px;
-    height:40px;
+.wh-300 {
+    max-width:500px;
+    max-height:700px;
+    width: auto;
+    height: auto;
 }
-.mb-50{
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+.mb-50 {
     margin-bottom: 50px;
 }
-/*Estilos da página contato.html*/
 
-.ml-50{
-   margin-left: 50px ; 
+/* Estilos da página contato.html */
+
+.ml-50 {
+    margin-left: 50px;
 }
